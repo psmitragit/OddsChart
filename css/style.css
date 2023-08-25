@@ -1,0 +1,269 @@
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+.team-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-team-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-team-box span {
+    margin: 0 20px;
+    font-weight: 600;
+    color: #ffc351;
+    font-size: 30px;
+}
+.team-box .vrses {
+    font-size: 16px;
+    -webkit-text-stroke: 1px #ff2f2f;
+    opacity: 1;
+    color: #ffc947;
+    font-weight: 900;
+}
+.optn-slct {
+    text-align: center;
+    border: 1px solid #b8083e;
+    padding: 15px;
+    width: 18%;
+    border-radius: 10px;
+    margin: 15px auto 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.optn-slct span {
+    display: inline-block;
+    color: #b8083e;
+    text-transform: uppercase;
+}
+.team_main_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+.match-slct {
+    height: 415px;
+    overflow-y: scroll;
+    border: 1px solid #595757;
+    border-radius: 3px;
+    background: #fff;
+    padding: 5px 0 5px 5px;
+    scrollbar-width: thin;
+}
+.slct-box {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.slct-box select {
+    background: #ffc947;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    width: 49%;
+}
+.team_div {
+    position: relative;
+}
+.team_div label img {
+    width: 40px;
+}
+.team_div label img:nth-child(1) {
+    margin-right: 20px;
+    font-size: 12px;
+}
+.team_div label img:nth-child(2) {
+    margin-left: 20px;
+}
+.team_div label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    width: 200px;
+}
+.chart-box {
+    margin-right: 20px;
+}
+.team_div input[type="radio"]:checked ~ label {
+    background-color: green;
+    color: white;
+}
+.team_div input {
+    position: absolute;
+    visibility: hidden;
+}
+.match-form-class {
+    margin-top: 7.2%;
+}
+.time-of-mathch {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.time-of-mathch p {
+    margin: 0;
+}
+.months {
+    background: #ececec;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 3px 10px;
+    color: #0000006e;
+}
+.displaynone {
+    display: none;
+}
+
+.font-w {
+    background: #ffc947;
+    color: #000;
+}
+
+.zoom-text {
+    color: #666;
+    font-size: 12px;
+    margin-left: 38px;
+    margin-right: 10px;
+}
+.highcharts-credits {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.ites-img1 {
+    width: 20px;
+    height: auto;
+}
+
+.flex-div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex-div {
+    margin-bottom: 2px;
+    background-color: #e3f3ed;
+}
+.slick-initialized .slick-slide {
+    background-color: #e3f3ed;
+  }
+.names {
+    width: fit-content;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.aabs {
+    margin-left: 10px;
+}
+.itemsdiv {
+  cursor: pointer;
+}
+.itemsdiv span {
+    font-size: 12px;
+  }
+  .iteams {
+   
+    padding-top: 5px;
+  }
+
+
+  .fit-image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+  .slider-div-down{
+    width: 250px;
+  }
+  .slider-div-down {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+   
+  }
+  .tetx-cenv {
+    text-align: center;
+    color: #000;
+    padding:  0px 10px ;
+  }
+
+  .slider-div-down {
+    background: red;  !important;
+  }
+  .tetx-cenv {
+    height: 64px;
+    overflow: hidden;
+  }
+
+  .slider-div-down{
+    background: red;
+   
+    transition: 0.3s;
+  }
+
+
+  .slider-div-down:hover .tetx-cenv {
+    color: rgba(208, 208, 208, 0.91);
+    transition: 0.3s;
+  }
+
+  .downslider {
+    padding-bottom: 50px;
+  }
+  .downslider {
+    background: red;
+  }
+
+  .tetx-cenv {
+    padding-top: 8px;
+    margin: 0;
+    background: red;
+    color: #fff;
+    height: 23px;
+  }
+
+
+  .downslider {
+    padding-bottom: 5px;
+   
+  }
+
+  .news-main-text {
+    position: absolute;
+    z-index: 5;
+    margin-top: 0px;
+    background: #b31313;
+    padding: 6px 20px;
+      padding-top: 6px;
+    color: #fff;
+    font-weight: bold;
+    height:21px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-top: 9px;
+    text-transform: uppercase;
+  }
